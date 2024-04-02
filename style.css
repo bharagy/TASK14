@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background: rgba(32,145,221)
+}
+.text{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.bg{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    clip-path: circle(520px at left 30px);
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 0 35px 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+.image{
+    padding-top: 7%;
+}
+.image li{
+    list-style: none;
+    position: relative;
+    margin-top: 50px;
+}
+.image img{
+    display: block;
+    max-width: 120px;
+    transition: 8.5s;
+}
+.image img:hover{
+    transform: translateX(30px);
+    transition: 8.5s;
+}
+.bike img{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    max-width: 500px;
+    max-height: 300px;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: whitesmoke;
+}
+.content h1{
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 40%;
+    color: black;
+}
+.content p{
+    font-size: 60px;
+    margin-left: 22%;
+    margin-top: -50px;
+}
+.content h2{
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 35%;
+    color: black;
+}
